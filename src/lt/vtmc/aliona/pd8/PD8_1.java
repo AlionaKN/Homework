@@ -18,7 +18,7 @@ private static Scanner scan = new Scanner(System.in);
 	    	for (int i =0 ; i< visosPrekes.length; i ++) {
 	    	sum += visosPrekes[i];
 	    }
-	    	System.out.println("Prekes is viso kainavo: "+ sum + " Ir vidutiniskai preke kainavo: " + Math.round(sum / prekiukiekis));
+	    	System.out.println("Prekes is viso kainavo: "+ sum + " Ir vidutiniskai preke kainavo: " + sum / prekiukiekis);
 	}	
 	
 
